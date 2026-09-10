@@ -1,0 +1,64 @@
+{
+    "name": "Test Nuvio Providers",
+    "version": "1.0.0",
+    "description": "A list of test providers.",
+    "scrapers": [
+        {
+            "id": "test-external-audio",
+            "name": "[Test] External Audio",
+            "description": "Test scraper using an external audio stream.",
+            "version": "1.0.0",
+            "author": "autovalue",
+            "supportedTypes": [
+                "movie",
+                "tv"
+            ],
+            "filename": "providers/external-audio.js",
+            "enabled": true,
+            "formats": [
+                "hls",
+                "mp4"
+            ],
+            "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+            "contentLanguage": [
+                "en"
+            ]
+        },
+        {
+            "id": "test-settings",
+            "name": "[Test] Scraper with setting",
+            "description": "Test scraper with settings.",
+            "version": "1.0.0",
+            "author": "autovalue",
+            "supportedTypes": [
+                "movie",
+                "tv"
+            ],
+            "filename": "providers/test-settings.js",
+            "enabled": true,
+            "formats": [
+                "hls",
+                "mp4"
+            ],
+            "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+            "contentLanguage": [
+                "en"
+            ],
+            "hasSettings": true
+        },
+        {
+            "id": "no-link",
+            "name": "[Test] No links",
+            "description": "Test scraper containing no valid links.",
+            "version": "1.0.0",
+            "filename": "providers/no-links.js"
+        },
+        {
+            "id": "youtube",
+            "name": "[Test] Youtube",
+            "description": "Test scraper containing YouTube links.",
+            "version": "1.0.0",
+            "filename": "providers/youtube.js"
+        }
+    ]
+}
