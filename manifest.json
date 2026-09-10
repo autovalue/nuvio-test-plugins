@@ -1,0 +1,28 @@
+{
+  "name": "Test Nuvio Providers",
+  "version": "1.0.0",
+  "description": "A list of test providers.",
+  "scrapers": [
+    {
+      "id": "test-external-audio",
+      "name": "[Test] External Audio",
+      "description": "Test scraper using an external audio stream.",
+      "version": "1.0.0",
+      "author": "autovalue",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/external-audio.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+      "contentLanguage": [
+        "en"
+      ]
+    }
+  ]
+}
